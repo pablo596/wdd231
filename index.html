@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="WDD 231 Course Home Page" />
+    <meta name="author" content="Pablo E. Palacios" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 231 | Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link
+      rel="stylesheet"
+      href="styles/large.css"
+      media="screen and (min-width: 600px)"
+    />
+
+    <!-- Google Fonts (example) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript with defer -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img
+          src="images/profile-photo.jpg"
+          alt="Profile Photo"
+          class="profile-pic"
+        />
+        <span class="my-name">Pablo E. Palacios</span>
+        <!-- Hamburger menu button for small screens -->
+        <button id="menuBtn" class="menu-button" aria-label="Navigation Menu">
+          &#9776;
+        </button>
+      </div>
+
+      <nav id="primaryNav" class="nav-closed">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#">Chamber</a></li>
+          <li><a href="#">GitHub Profile</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <h1>Home</h1>
+
+      <!-- Section 1: Course Work -->
+      <section>
+        <h2>Course Work</h2>
+        <p>List of projects and activities for the WDD 231 course.</p>
+      </section>
+
+      <!-- Section 2: Sample Image Section -->
+      <section>
+        <h2>Portoviejo, Manabí, Ecuador</h2>
+        <figure>
+          <img
+            src="images/sample-image.jpg"
+            alt="Portoviejo, Manabi, Ecuador"
+            class="responsive-image"
+          />
+          <figcaption>Portoviejo, Manabi, Ecuador</figcaption>
+        </figure>
+      </section>
+
+      <!-- Section 3: Web and Computer Programming Certificate -->
+      <section>
+        <h2>Web and Computer Programming Certificate</h2>
+        <!-- Filter buttons -->
+        <div class="filter-buttons">
+          <button id="btnAll">All</button>
+          <button id="btnCse">CSE</button>
+          <button id="btnWdd">WDD</button>
+        </div>
+
+        <!-- Container for course cards -->
+        <div id="coursesContainer" class="courses-container"></div>
+
+        <!-- Display total credits dynamically -->
+        <p class="credits-total">
+          Total Credits: <span id="totalCredits">0</span>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span> Pablo E. Palacios • Portoviejo,
+        Manabí, Ecuador
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+/* large.css */
+
+/* For screens 600px and wider */
+@media (min-width: 600px) {
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    /* Horizontal navigation for larger screens */
+    nav ul {
+      display: flex; /* Instead of display: none */
+      justify-content: flex-end;
+    }
+  
+    nav li {
+      border: none;
+    }
+  
+    nav li a {
+      padding: 0.75rem 1rem;
+    }
+  
+    /* Hide hamburger menu on larger screens */
+    .menu-button {
+      display: none;
+    }
+  
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  
+    /* Example: make sections span both columns by default */
+    section {
+      grid-column: span 2;
+    }
+  
+    footer {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  

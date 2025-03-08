@@ -1,0 +1,158 @@
+/* small.css */
+
+/* Example CSS variables */
+:root {
+    --primary-color: #2b5070;
+    --secondary-color: #f3f3f3;
+    --accent-color: #d47f4c;
+    --font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Basic reset */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .my-name {
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  /* Hamburger menu button */
+  .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Navigation - hidden by default on mobile */
+  nav {
+    background-color: var(--primary-color);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none; /* Will be shown via JS */
+  }
+  
+  nav li {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  nav li a {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav li a:hover,
+  nav li a.active {
+    background-color: var(--accent-color);
+    color: #fff;
+  }
+  
+  /* Main content */
+  main {
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Filter buttons for courses */
+  .filter-buttons {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .filter-buttons button {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+  }
+  
+  /* Course cards container */
+  .courses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .course-card.completed {
+    background-color: #d4edda; /* Indicates completed courses */
+    border-color: #28a745;
+  }
+  
+  .credits-total {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0.3rem;
+  }
+  
