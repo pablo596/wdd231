@@ -1,0 +1,92 @@
+[
+  {
+    "name": "De Prati",
+    "address": "Avenida 9 de Octubre y García Avilés, Guayaquil, Ecuador",
+    "phone": "+593 4-373-1800",
+    "website": "https://www.deprati.com.ec",
+    "image": "deprati.svg",
+    "membershipLevel": "Platinum",
+    "email": "servicioalcliente@deprati.com.ec"
+  },
+  {
+    "name": "Claro Ecuador",
+    "address": "Avenida Amazonas N37-29 y Naciones Unidas, Quito, Ecuador",
+    "phone": "+593 2-298-5000",
+    "website": "https://www.claro.com.ec",
+    "image": "claro.svg",
+    "membershipLevel": "Gold",
+    "email": "contacto@claro.com.ec"
+  },
+  {
+    "name": "ETAPA EP",
+    "address": "Avenida Huayna Cápac y Pumapungo, Cuenca, Ecuador",
+    "phone": "+593 7-284-4000",
+    "website": "https://www.etapa.net.ec",
+    "image": "etapa.svg",
+    "membershipLevel": "Silver",
+    "email": "info@etapa.net.ec"
+  },
+  {
+    "name": "Banco Pichincha",
+    "address": "Avenida Amazonas N37-29 y Naciones Unidas, Quito, Ecuador",
+    "phone": "+593 2-298-5000",
+    "website": "https://www.pichincha.com",
+    "image": "pichincha.svg",
+    "membershipLevel": "Gold",
+    "email": "servicioalcliente@pichincha.com"
+  },
+  {
+    "name": "Xtrim",
+    "address": "Avenida Eloy Alfaro N44-406 e Higueras, Quito, Ecuador",
+    "phone": "+593 2-600-2400",
+    "website": "https://www.xtrim.com.ec/",
+    "image": "xtrim.png",
+    "membershipLevel": "Silver",
+    "email": "atencionclientes@tvcable.com.ec"
+  },
+  {
+    "name": "Telconet S.A.",
+    "address": "Avenida 12 de Octubre N24-660 y Francisco Salazar, Quito, Ecuador",
+    "phone": "+593 2-396-3100",
+    "website": "https://www.telconet.ec",
+    "image": "telconet.png",
+    "membershipLevel": "Gold",
+    "email": "info@telconet.ec"
+  },
+  {
+    "name": "Cervecería Nacional",
+    "address": "Avenida 6 de Diciembre N30-182 y Eloy Alfaro, Quito, Ecuador",
+    "phone": "+593 2-299-7000",
+    "website": "https://www.cervecerianacional.ec",
+    "image": "cn.png",
+    "membershipLevel": "Gold",
+    "email": "contacto@cervecerianacional.ec"
+  },
+  {
+    "name": "Pronaca",
+    "address": "Km 14.5 Vía a Daule, Guayaquil, Ecuador",
+    "phone": "+593 4-371-9200",
+    "website": "https://www.pronaca.com",
+    "image": "pronaca.png",
+    "membershipLevel": "Gold",
+    "email": "info@pronaca.com"
+  },
+  {
+    "name": "Nestlé Ecuador",
+    "address": "Avenida Amazonas N37-29 y Naciones Unidas, Quito, Ecuador",
+    "phone": "+593 2-298-5000",
+    "website": "https://www.nestle.com.ec",
+    "image": "nestle.svg",
+    "membershipLevel": "Premium",
+    "email": "contacto@ec.nestle.com"
+  },
+  {
+    "name": "Corporación Favorita",
+    "address": "Avenida 6 de Diciembre N34-190 y Checoslovaquia, Quito, Ecuador",
+    "phone": "+593 2-298-7200",
+    "website": "https://www.corporacionfavorita.com",
+    "image": "cfavorita.png",
+    "membershipLevel": "Premium",
+    "email": "info@corporacionfavorita.com"
+  }
+]
