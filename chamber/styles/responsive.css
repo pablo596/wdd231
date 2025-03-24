@@ -1,3 +1,4 @@
+/* Hamburger Menu */
 .hamburger {
   display: none;
   font-size: 28px;
@@ -7,27 +8,27 @@
   cursor: pointer;
 }
 
-/* styles for responsive mobile view */
+/* Responsive Mobile Styles */
 @media (max-width: 600px) {
   nav ul {
     display: none;
     flex-direction: column;
     width: 100%;
   }
-
   nav.active ul {
     display: flex;
   }
-
   .hamburger {
     display: block;
     position: absolute;
     top: var(--padding);
     right: var(--padding);
   }
-
   nav {
     width: 100%;
     text-align: center;
+  }
+  .home-info {
+    grid-template-columns: 1fr; /* Single column on mobile */
   }
 }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce - Home</title>
+    <meta
+      name="description"
+      content="Chamber of Commerce Home Page. Connect and support local businesses."
+   >
+    <meta name="author" content="Pablo Eduardo Palacios Alava">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.min.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <!-- Open Graph (Optional) -->
+    <meta property="og:title" content="Chamber of Commerce - Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/hero-image.jpg">
+    <meta
+      property="og:url"
+      content="https://YOUR_GITHUB_USERNAME.github.io/wdd231/chamber/index.html"
+   >
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Chamber of Commerce</h1>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <nav id="navMenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section (Image + CTA) -->
+      <section class="hero">
+        <img src="images/hero-image.jpg" alt="Hero Image" class="hero-image">
+        <!-- Gradient Overlay -->
+        <div class="hero-overlay"></div>
+        <!-- Centered Hero Text -->
+        <div class="hero-text">
+          <h2>Welcome to Our Chamber</h2>
+          <p>Connecting local businesses to foster growth and community.</p>
+        </div>
+        <!-- Call-to-Action Button -->
+        <a href="join.html" class="cta-button">Join Now</a>
+      </section>
+
+      <!-- Events, Current Weather, Forecast (3 Columns) -->
+      <section class="home-info">
+        <!-- Left Column: Events -->
+        <div class="events-box">
+          <h2>Events</h2>
+          <ul class="events-list">
+            <li>
+              <h3>Business Networking</h3>
+              <p><strong>Date:</strong> May 15</p>
+              <p><strong>Location:</strong> City Hall</p>
+            </li>
+            <li>
+              <h3>Local Expo</h3>
+              <p><strong>Date:</strong> June 1</p>
+              <p><strong>Location:</strong> Community Center</p>
+            </li>
+            <!-- Add more events as needed -->
+          </ul>
+        </div>
+
+        <!-- Middle Column: Current Weather -->
+        <div class="weather-current">
+          <h2>Current Weather</h2>
+          <div id="weatherCurrentDetails"></div>
+        </div>
+
+        <!-- Right Column: Weather Forecast -->
+        <div class="weather-forecast">
+          <h2>Weather Forecast</h2>
+          <div id="weatherForecastDetails"></div>
+        </div>
+      </section>
+
+      <!-- Spotlights Section (Gold/Silver Members) -->
+      <section class="spotlights">
+        <div class="container">
+          <h2>Member Spotlights</h2>
+          <div id="spotlights-container">
+            <!-- Dynamically loaded spotlights go here -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          Contact: ppalaciosalava@byupathway.edu | Chamber of Commerce | WDD 231
+        </p>
+        <p>
+          &copy; <span id="currentYear"></span> Chamber of Commerce. Last
+          modified: <span id="lastModified"></span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/home.js" defer></script>
+  </body>
+</html>
