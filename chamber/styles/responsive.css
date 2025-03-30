@@ -31,4 +31,7 @@
   .home-info {
     grid-template-columns: 1fr; /* Single column on mobile */
   }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
 }

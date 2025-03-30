@@ -1,0 +1,68 @@
+<!-- thankyou.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <meta
+      name="description"
+      content="Confirmation page for Chamber of Commerce membership."
+   >
+    <meta name="author" content="Pablo Eduardo Palacios Alava">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.min.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Chamber of Commerce</h1>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <nav id="navMenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html" class="active">Join</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="thank-you container">
+      <h2>Thank You for Joining!</h2>
+      <p>
+        We’ve received your application. Below is the information you submitted:
+      </p>
+
+      <div class="info-box">
+        <ul>
+          <li><strong>First Name:</strong> <span id="firstName"></span></li>
+          <li><strong>Last Name:</strong> <span id="lastName"></span></li>
+          <li><strong>Email:</strong> <span id="email"></span></li>
+          <li><strong>Phone:</strong> <span id="phone"></span></li>
+          <li>
+            <strong>Organization:</strong> <span id="organization"></span>
+          </li>
+          <li><strong>Submitted On:</strong> <span id="timestamp"></span></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          Contact: ppalaciosalava@byupathway.edu | Chamber of Commerce | WDD 231
+        </p>
+        <p>
+          &copy; <span id="currentYear"></span> Chamber of Commerce. Last
+          modified: <span id="lastModified"></span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="scripts/form.js" defer></script>
+  </body>
+</html>
