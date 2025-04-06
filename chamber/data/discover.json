@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Galápagos Islands",
+    "address": "Galápagos Archipelago, Ecuador",
+    "description": "The Galápagos Islands are known for their unique biodiversity and volcanic landscapes. Perfect for ecotourism and observing endemic species like giant tortoises.",
+    "image": "images/galapagos.webp"
+  },
+  {
+    "name": "Middle of the World",
+    "address": "San Antonio de Pichincha, Quito, Ecuador",
+    "description": "An iconic monument marking the equator line. A cultural and tourist site celebrating Ecuador's unique geographic location.",
+    "image": "images/middle-world.webp"
+  },
+  {
+    "name": "Cotopaxi National Park",
+    "address": "Cotopaxi Province, Ecuador",
+    "description": "Home to the Cotopaxi volcano, one of the highest active volcanoes in the world. Ideal for hiking and enjoying Andean landscapes.",
+    "image": "images/cotopaxi.webp"
+  },
+  {
+    "name": "Otavalo Market",
+    "address": "Otavalo, Imbabura, Ecuador",
+    "description": "A vibrant indigenous market famous for its colorful textiles, handicrafts, and ancestral traditions.",
+    "image": "images/otavalo-market.webp"
+  },
+  {
+    "name": "Baños de Agua Santa",
+    "address": "Baños, Tungurahua, Ecuador",
+    "description": "A tourist city surrounded by mountains, known for its waterfalls, hot springs, and adventure activities like bungee jumping and rafting.",
+    "image": "images/banos.webp"
+  },
+  {
+    "name": "Malecón 2000",
+    "address": "Guayaquil, Guayas, Ecuador",
+    "description": "A modern boardwalk along the Guayas River with gardens, monuments, museums, and family entertainment areas.",
+    "image": "images/malecon.webp"
+  },
+  {
+    "name": "El Cajas National Park",
+    "address": "Cuenca, Azuay, Ecuador",
+    "description": "A highland park filled with páramos and glacial lagoons. A perfect place for hiking and nature exploration.",
+    "image": "images/cajas.webp"
+  },
+  {
+    "name": "Historic Center of Quito",
+    "address": "Quito, Pichincha, Ecuador",
+    "description": "A UNESCO World Heritage Site with colonial churches, historic plazas, and museums. The cultural and spiritual heart of Ecuador.",
+    "image": "images/quito.webp"
+  }
+]

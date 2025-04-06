@@ -1,22 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   /*******************************************************
-   * 1) Update Footer Dates
-   *******************************************************/
-  const currentYearSpan = document.getElementById("currentYear");
-  const lastModifiedSpan = document.getElementById("lastModified");
-  currentYearSpan.textContent = new Date().getFullYear();
-  lastModifiedSpan.textContent = document.lastModified;
-
-  /*******************************************************
-   * 2) Hamburger Menu for Mobile
-   *******************************************************/
-  const hamburger = document.getElementById("hamburger");
-  const navMenu = document.getElementById("navMenu");
-  hamburger.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-  });
-
-  /*******************************************************
    * 3) Fetch & Display Weather Data
    *******************************************************/
   const weatherCurrentDetails = document.getElementById(
@@ -54,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         output += `
           <div class="weather-card">
             <h5><strong>Date:</strong> ${weather.dt_txt}</h5>
-            <hr />
+            <hr>
             <p><strong>Temperature:</strong> ${weather.main.temp.toFixed(
               0
             )}°C</p>
@@ -151,13 +134,13 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             <!-- Example: Star icon or membership icon if desired -->
           </div>
-          <hr />
+          <hr>
           <div class="member-card-content">
             <img
               src="images/${member.image}"
               alt="${member.name} Logo"
               class="member-logo"
-            />
+           >
             <div class="member-info">
               <p><strong>EMAIL:</strong> ${member.email}</p>
               <p><strong>PHONE:</strong> ${member.phone}</p>

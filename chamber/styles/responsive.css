@@ -34,4 +34,30 @@
   .form-grid {
     grid-template-columns: 1fr;
   }
+  #visitMessage {
+    font-size: 1rem;
+    padding: 12px 16px;
+  }
+}
+
+/* Medium Screen: 2-column layout */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .discover-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+  }
+}
+
+/* Large Screen: 4-column layout */
+@media (min-width: 1025px) {
+  .discover-gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "card1 card2 card3 card4"
+      "card5 card6 card7 card8";
+  }
 }
