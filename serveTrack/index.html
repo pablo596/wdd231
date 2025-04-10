@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags para SEO y Social Sharing -->
+    <meta
+      name="description"
+      content="ServeTrack: Conectamos a personas que quieren servir con quienes necesitan ayuda."
+    />
+    <meta property="og:title" content="ServeTrack" />
+    <meta
+      property="og:description"
+      content="Plataforma de servicio comunitario"
+    />
+    <meta property="og:image" content="images/og-image.webp" />
+    <link rel="icon" href="images/favicon.webp" type="image/webp" />
+    <!-- Enlaces a hojas de estilo -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <title>ServeTrack | Inicio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="opportunities.html">Oportunidades</a></li>
+          <li><a href="form.html">Enviar Oportunidad</a></li>
+          <li><a href="attributions.html">Atribuciones</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome">
+        <h1>Bienvenidos a ServeTrack</h1>
+        <p>Conectamos a las comunidades para servir y ayudar.</p>
+      </section>
+      <section id="visit-tracker">
+        <p id="last-visit"></p>
+      </section>
+      <section id="featured-services">
+        <h2>Servicios Destacados</h2>
+        <div id="services-cards">
+          <!-- Aquí se insertarán dinámicamente los "cards" de servicio -->
+        </div>
+        <button id="learn-more" type="button">Más Información</button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 ServeTrack. Todos los derechos reservados.</p>
+    </footer>
+    <!-- Carga del script principal como módulo -->
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/* Estilos para pantallas pequeñas (320px–640px) */
+@media (max-width: 640px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #featured-services {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Estilos para pantallas medianas (641px–1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  nav ul {
+    flex-direction: row;
+  }
+  #featured-services {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+/* Estilos para pantallas grandes (1025px+) */
+/* Aquí puedes agregar estilos adicionales si lo necesitas */

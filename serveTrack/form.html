@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Enviar oportunidad de servicio a ServeTrack"
+    />
+    <meta property="og:title" content="ServeTrack - Enviar Oportunidad" />
+    <meta
+      property="og:description"
+      content="Formulario para enviar una nueva oportunidad de servicio"
+    />
+    <link rel="icon" href="images/favicon.webp" type="image/webp" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <title>ServeTrack | Enviar Oportunidad</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="opportunities.html">Oportunidades</a></li>
+          <li><a href="form.html" class="active">Enviar Oportunidad</a></li>
+          <li><a href="attributions.html">Atribuciones</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Enviar Nueva Oportunidad de Servicio</h1>
+      <form id="opportunity-form" novalidate>
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="description">Descripción:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="location">Ubicación:</label>
+        <input type="text" id="location" name="location" required />
+
+        <label for="contact">Contacto:</label>
+        <input type="email" id="contact" name="contact" required />
+
+        <label for="date">Fecha:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="category">Categoría:</label>
+        <select id="category" name="category" required>
+          <option value="">Seleccione una categoría</option>
+          <option value="Ambiental">Ambiental</option>
+          <option value="Social">Social</option>
+          <option value="Educativa">Educativa</option>
+        </select>
+
+        <label for="image">Imagen (.webp):</label>
+        <input type="file" id="image" name="image" accept=".webp" />
+
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="form-message"></div>
+    </main>
+    <footer>
+      <p>&copy; 2025 ServeTrack. Todos los derechos reservados.</p>
+    </footer>
+    <script type="module" src="scripts/form.js"></script>
+  </body>
+</html>

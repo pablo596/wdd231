@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Clean-Up Day at El Ejido Park",
+    "category": "Physical",
+    "location": "El Ejido Park, Quito, Ecuador",
+    "description": "Join us for a morning of cleaning and beautifying El Ejido Park. All supplies will be provided.",
+    "date": "2025-04-18",
+    "image": "images/ejido-cleanup.webp"
+  },
+  {
+    "title": "Tutoring for Underprivileged Children",
+    "category": "Educational",
+    "location": "Fundación Aliñambi, Quito, Ecuador",
+    "description": "Volunteer to help local children improve their reading and math skills. No prior experience required.",
+    "date": "2025-04-21",
+    "image": "images/tutoring-kids.webp"
+  },
+  {
+    "title": "Food Drive Distribution in Guayaquil",
+    "category": "Emotional",
+    "location": "Samanes Park, Guayaquil, Ecuador",
+    "description": "Help distribute food kits to families in need. A small act of kindness goes a long way.",
+    "date": "2025-04-20",
+    "image": "images/food-drive.webp"
+  },
+  {
+    "title": "Visit to Elderly Home",
+    "category": "Emotional",
+    "location": "Hogar del Corazón, Cuenca, Ecuador",
+    "description": "Spend quality time with elderly residents—play games, share stories, and spread love.",
+    "date": "2025-04-19",
+    "image": "images/elderly-visit.webp"
+  },
+  {
+    "title": "Beach Clean-Up in Salinas",
+    "category": "Physical",
+    "location": "Salinas Beach, Santa Elena, Ecuador",
+    "description": "Help keep our coast clean by collecting trash along the beach. Gloves and bags provided.",
+    "date": "2025-04-22",
+    "image": "images/salinas-cleanup.webp"
+  },
+  {
+    "title": "Animal Shelter Volunteer Day",
+    "category": "Emotional",
+    "location": "Refugio Esperanza, Loja, Ecuador",
+    "description": "Assist in feeding, grooming, and walking rescued animals. A great way to give back to our furry friends.",
+    "date": "2025-04-23",
+    "image": "images/animal-shelter.webp"
+  },
+  {
+    "title": "Tree Planting in Cumbayá",
+    "category": "Physical",
+    "location": "Cumbayá Green Zone, Quito, Ecuador",
+    "description": "Join a reforestation effort by planting native trees. Tools and lunch will be provided.",
+    "date": "2025-04-24",
+    "image": "images/tree-planting.webp"
+  },
+  {
+    "title": "Workshop: Digital Literacy for Seniors",
+    "category": "Educational",
+    "location": "Community Center, Ambato, Ecuador",
+    "description": "Teach seniors how to use smartphones, social media, and online tools in this tech-friendly workshop.",
+    "date": "2025-04-25",
+    "image": "images/senior-tech.webp"
+  }
+]
